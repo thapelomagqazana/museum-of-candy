@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Candy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Museum of Candy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exhibits">Exhibits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#visit">Visit</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center py-5" style="background-image: url('./images/candy-background.jpg'); background-size: cover; color: white;">
+        <h1>Welcome to the Museum of Candy!</h1>
+        <p>Your sweet adventure awaits.</p>
+        <button class="btn btn-primary btn-lg">Explore Exhibits</button>
+    </section>
+
+    <!-- Exhibits Section -->
+    <section id="exhibits" class="container py-5">
+        <h2 class="text-center mb-4">Our Exhibits</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./images/candy_wonderland.jpg" class="card-img-top" alt="Candy Wonderland" style="height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Candy Wonderland</h5>
+                        <p class="card-text">Explore the sweetest candy creations!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./images/chocolate-factory.webp" class="card-img-top" alt="Chocolate Factory" style="height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Factory</h5>
+                        <p class="card-text">Discover the magic behind chocolate making.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="./images/lollipop-land.png" class="card-img-top" alt="Lollipop Land" style="height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Lollipop Land</h5>
+                        <p class="card-text">A colorful world of lollipops.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About the Museum</h2>
+            <p class="text-center">The Museum of Candy is home to the largest collection of candy-related exhibits. From the history of sugar to modern-day candy-making, our museum showcases the sweetest wonders of the world!</p>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section id="visit" class="container py-5">
+        <h2 class="text-center mb-4">Plan Your Visit</h2>
+        <p class="text-center">Come visit us and explore the world of candy!</p>
+        <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input class="form-control" type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input class="form-control" type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+            <label for="date" class="form-label">Preferred Visit Date</label>
+            <input class="form-control" type="date" id="date">
+        </div>
+        <button class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Museum of Candy | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
